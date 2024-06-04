@@ -1,0 +1,112 @@
+body {
+  font-family: Helvetica;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-list ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list li {
+  display: inline-block;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  font-size: 1.2em;
+  margin-left: 0.5em;
+  padding: 0.5em;
+  font-weight: bold;
+}
+
+.nav-list li i {
+  color: rgb(130, 130, 130);
+  font-size: 2em;
+}
+
+/* CONTAINER */
+
+.container {
+  min-height: 60vh;
+  padding: 2em;
+}
+
+/* MESSAGES*/
+
+.message {
+  padding: 1em;
+  color: #004085;
+  background-color: #cce5ff;
+  border: 1px solid #b8daff;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto 2em;
+  max-width: 60%;
+  font-size: 1.3em;
+}
+
+.container_login {
+  max-width: 100%;
+  padding: 2em;
+  margin-top: 2em;
+  background-color: rgb(169, 167, 167);
+  border-radius: 10px;
+}
+
+.container_login label {
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.3em;
+  font-size: 1.3em;
+}
+
+.container_login input {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 1.1em;
+  border-radius: 5px;
+  outline: 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 0.5em;
+}
+
+.container_login .btn {
+  padding: 0.5em;
+  font-size: 1.4em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.container_login .btn:hover {
+  background-color: rgb(82, 126, 176);
+  transition: 1.5s;
+}
+
+h1 {
+  text-align: center;
+}
+
+footer {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+footer span {
+  font-weight: bold;
+  color: black;
+}
